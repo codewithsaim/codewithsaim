@@ -240,3 +240,25 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* cards */
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #e8e6e6;
+
+  margin-left: 2rem;
+  overflow: hidden;
+}
+
+.card__header,
+.card__body {
+  padding: 2rem 3rem;
+}
+.card--primary .card__header {
+  background: var(--color-primary);
+  color: white;
+}
+.card--secondary .card__header {
+  background: var(--color-secondary);
+  color: white;
+}

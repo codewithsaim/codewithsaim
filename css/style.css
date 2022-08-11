@@ -82,7 +82,7 @@ a {
 .link-arrow:hover::after {
   margin-left: 10px;
 }
-*/ @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
   }
@@ -199,6 +199,26 @@ a {
 }
 @media screen and (min-width: 1024px) {
   .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* basic input component */
+.input {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+/* for show light color inside the input area  */
+::placeholder {
+  color: #cdcbd7;
+}
+/* in psd the desktop version the input fontsize was 15px thats why we use 1.5rem thats equals to the 15px 1.5x10=15 */
+@media screen and (min-width: 1024px) {
+  .input {
     font-size: 1.5rem;
   }
 }

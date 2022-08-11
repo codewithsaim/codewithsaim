@@ -58,7 +58,7 @@ p {
 }
 
 /* links */
-/* a {
+a {
   text-decoration: none;
 }
 .link-arrow {
@@ -75,13 +75,12 @@ p {
 }
 .link-arrow:hover::after {
   margin-left: 10px;
-} */
-
-/* @media screen and (min-width: 1024px) {
+}
+*/ @media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
   }
-} */
+}
 
 /* badges */
 .badge {
@@ -133,4 +132,23 @@ p {
   .list--tick .list__item {
     padding: 0;
   }
+}
+
+/* icons */
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.icon--primary {
+  fill: var(--color-primary);
+}
+
+.icon-container {
+  background: #f3f9fa;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }

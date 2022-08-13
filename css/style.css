@@ -249,8 +249,6 @@ a {
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #e8e6e6;
-
-  margin-left: 2rem;
   overflow: hidden;
 }
 

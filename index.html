@@ -9,18 +9,21 @@
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
-    <div class="callout callout--primary">
-      <div class="grid grid--1x2">
-        <div class="callout__Callout">
-          <h2 class="callout--heading">Ready to Get Started?</h2>
-          <p class="callout__content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            ratione debitis porro dignissimos. Distinctio quod, soluta
-            voluptatem sit vero unde?
-          </p>
-        </div>
-        <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+       
+          <svg class="icon icon--primary collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </span>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+        praesentium hic numquam, nemo sed unde?
       </div>
     </div>
+    
+    <script src="js/main.js"></script>
   </body>
 </html>

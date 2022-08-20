@@ -497,7 +497,7 @@ a {
 }
 .collapsible__heading {
   margin-top: 0;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 .collapsible__chevron {
   transform: rotate(-90deg);
@@ -513,6 +513,7 @@ a {
   transform: rotate(0);
 }
 .collapsible--expanded .collapsible__content {
+  display: block;
   max-height: 100vh;
   opacity: 1;
 }

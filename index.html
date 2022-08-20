@@ -9,43 +9,20 @@
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
-    <!-- chevron updated version -->
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
+    <nav class="nav collapsible">
+      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /> </a>
 
-        <!-- <svg class="icon collapsible__chevron"> -->
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
 
-        <img
-          class="icon icon-container collapsible__chevron"
-          src="images/chevron.svg"
-          alt=""
-        />
-      </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et eos veniam,
-        eligendi quis asperiores placeat pariatur tempora iusto impedit
-        mollitia!
-      </div>
-    </div>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-
-        <!-- <svg class="icon collapsible__chevron"> -->
-
-        <img
-          class="icon icon-container collapsible__chevron"
-          src="images/chevron.svg"
-          alt=""
-        />
-      </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et eos veniam,
-        eligendi quis asperiores placeat pariatur tempora iusto impedit
-        mollitia!
-      </div>
-    </div>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Hosting</a></li>
+        <li class="nav__item"><a href="#">VPS</a></li>
+        <li class="nav__item"><a href="#">Domain</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
     <script src="js/main.js"></script>
   </body>
 </html>

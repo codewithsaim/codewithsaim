@@ -225,12 +225,15 @@ a {
 }
 .btn--outline {
   background: #fff;
-  color: var(--color-headings);
-  border: 2px solid var(--color-headings);
+  /* color: var(--color-headings); */
+  color: var(--color-heading);
+  /* border: 2px solid var(--color-headings); */
+  border: 2px solid var(--color-heading);
 }
 
 .btn--outline:hover {
-  background: var(--color-headings);
+  background: var(--color-heading);
+
   color: #fff;
 }
 .btn--stretched {

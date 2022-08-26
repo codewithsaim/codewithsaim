@@ -760,7 +760,8 @@ plans block */
 }
 .footer__heading {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 3.5rem;
 }
 .footer__brand {
   margin-top: 5rem;
